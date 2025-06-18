@@ -1,15 +1,34 @@
-# North Metro Software Python Project Template
+# 🚗 Smart Car Park System (Moondalup)
 
-A Python project template for all new projects in North Metro Software
+This project is a Python-based simulation of a smart car park system, developed for the City of Moondalup as part of the ICT40120 Certificate IV in Programming at North Metro TAFE.
 
-You may use the guidelines under `org/` for assessments and projects in the IP4RIoT cluster.
+## 📌 Features
+- Track vehicle entry and exit in real-time using sensors
+- Display available parking bays and public announcements
+- Log license plate data to a file
+- Load configuration from a JSON file
+- Object-oriented design using Python classes
+- Fully unit-tested core components
+- Version-controlled with Git and GitHub
 
-## Additional Examples
-Here are other good examples of onboarding documents that relate to git and version control for you to browse:
+## 📁 Project Structure
+<pre>ipriot-car-park-prj/
+├── src/ # Source code
+├── tests/ # Unit tests
+├── .venv/ # Virtual environment
+├── .gitignore 
+├── README.md ``` </pre>
 
-- [skybase](https://handbook.skybase.com.np/git-conventions/)
-- [thoughtbot](https://github.com/thoughtbot/guides/tree/main/git) (also see their excellent [code review](https://github.com/thoughtbot/guides/tree/main/code-review) guide!)
-- [GitLab Handbook](https://handbook.gitlab.com/handbook/product-development-flow/)
+## 💻 Technologies Used
+- Python 3
+- PyCharm
+- `unittest` for testing
+- Git & GitHub for version control
 
-# Note
-When using this repo as a template, you should update this readme to provide a general overview suitable for **YOUR** project.
+## 🚀 How to Run
+1. Clone the repo
+2. Create and activate a virtual environment
+3. Run `main.py` in the `src/` folder to simulate the car park
+
+## 📜 License
+This project is for educational use only under North Metro TAFE guidelines.

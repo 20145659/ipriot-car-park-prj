@@ -478,7 +478,7 @@ This time, we will push the tag to the remote repository:
 
 Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:
 
-```markdown
+
 ![Added methods to the car park class](screenshots/methods-to-car-park.png)
 ```
 
@@ -487,17 +487,24 @@ Answer the following questions:
 >
 > 1. **Which class is responsible for each of the following pieces of information (and why)?**
 >    - *The number of available bays*
->      `Answer here...`
+CarPark class
+Because available bays are derived from the car park’s capacity and the number of plates (cars) currently inside. It's directly related to the internal state of the CarPark.
 >    - *The current temperature*
->      `Answer here...`
+Sensor class
+If temperature readings are required, it would typically come from a sensor that measures environmental conditions.
 >    - *The time*
->      `Answer here...`
+Could be obtained within CarPark or Display class
+Time is not stored permanently but fetched at runtime (e.g., via datetime.now()). Either the CarPark can include it in display data, or the Display class can retrieve and format it.
 >
 > 2. **What is the difference between an attribute and a property?**
->    `Answer here...`
->
+> Attribute: A regular variable that stores data directly in the object. Accessible and mutable from outside the class unless made private.
+
+>Property: A method decorated with @property that behaves like an attribute when accessed, but can compute or validate a value dynamically. It allows encapsulation and better control over access.
+
 > 3. **Why do you think we used a dictionary to hold the data we passed the display? List at least one advantage and one disadvantage of this approach.**
->    `Answer here...`
+>It allows passing flexible and extendable data without changing the method signature. New info like temperature, time, or status can be added easily.
+Disadvantage: It can lead to runtime errors if expected keys are missing or incorrectly named, since the data structure is not explicitly enforced (unlike a class or named tuple).
+
 
 #### 2.7.5. Add a detect vehicle method to the Sensor class
 

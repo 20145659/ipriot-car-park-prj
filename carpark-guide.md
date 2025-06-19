@@ -1000,6 +1000,8 @@ Let's now implement the functionality to make the unit tests pass (if you have w
 
 6. If you have created the unit tests, run them in PyCharm. Confirm that they now pass.
 
+![Logging tests passed](screenshots/logging-tests-pass.png)
+
 **Additional evidencing:**
 
 1. Add and commit your changes to the branch

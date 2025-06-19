@@ -92,9 +92,9 @@ After reading the task requirements, you should be able to identify the classes,
 
 | Class Name | Attributes | Methods |
 | ---------- | ---------- | ------- |
-| `CarPark`    |            |         |
-| `Sensor`     |            |         |
-| `Display`    |            |         |
+| `CarPark`    |        location, capacity, plates, displays, sensors    |  __init__(), add_car(), remove_car(), update_displays(), register()       |
+| `Sensor`     |         id, is_active, car_park   |    __init__(), detect_vehicle(), _scan_plate(), update_car_park()     |
+| `Display`    |       id, message, is_on     |   __init__(), update(data), __str__()      |
 
 **Additional evidencing:**
 Ensure you have completed the previous table and include at least two methods and attributes for each.

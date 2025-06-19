@@ -25,9 +25,11 @@ class CarPark:
         self.update_displays()
 
     def remove_car(self, plate):
-        if plate in self.plates:
-            self.plates.remove(plate)
+        if plate not in self.plates:
+            raise ValueError("Plate not found in car park")
+        self.plates.remove(plate)
         self.update_displays()
+
 
     @property
     def available_bays(self):

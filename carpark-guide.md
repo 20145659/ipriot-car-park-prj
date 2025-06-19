@@ -743,7 +743,7 @@ if __name__ == "__main__":
 **Additional evidencing:**
 
 1. Add a screenshot of the output of the unit tests. If any failed, add a screenshot of the error message and a screenshot after you have fixed the errors:
-
+![Unit tests](screenshots/unit-tests-error.png)
       ![Unit tests](screenshots/unit-tests.png)
    ```
 
@@ -802,6 +802,7 @@ Next, we'll create tests for the `Display` class. These tests will test the `__i
 1. Add a screenshot of the output of the unit tests. If any failed, add a screenshot of the error message and a screenshot after you have fixed the errors:
 
  screenshot of the error message:
+
    ![Unit tests](screenshots/unit-tests-display-1.png)
    
 screenshot after fixing:

@@ -22,3 +22,11 @@ class CarPark:
         elif isinstance(component, Display):
             self.displays.append(component)
 
+    def add_car(self, plate):
+        self.plates.append(plate)
+        self.update_displays()
+
+    def remove_car(self, plate):
+        if plate in self.plates:
+            self.plates.remove(plate)
+            self.update_displays()

@@ -847,9 +847,6 @@ with self.assertRaises(TypeError):
 **Additional evidencing:**
 
 Commit your original test cases for the sensor class to the local repository. Tag the commit with `s8` so your lecturer can find it.
-
-**Car Park Register Method Test Screenshot:**
-
 ![Car Park Register Method Tests](screenshots/car-park-register-method-tests.png)
 
 ### 2.13. Additional functionality: TDD
@@ -952,8 +949,6 @@ Notice how we have inadvertently made our test code hard to maintain (if we chan
 
 6. Run the unit tests in PyCharm. Confirm that they fail!
 
-Below is the error screenshot when running the log file test before adding `log_file` support to the CarPark class:
-![Test Failure Screenshot](screenshots/add-test-cases-section2-13-2-1-error.png)
 7. Commit your changes to the local repository. You do not need to tag them:
 
       ```bash
@@ -1004,6 +999,8 @@ Let's now implement the functionality to make the unit tests pass (if you have w
    ```
 
 6. If you have created the unit tests, run them in PyCharm. Confirm that they now pass.
+
+![Logging tests passed](screenshots/logging-tests-pass.png)
 
 **Additional evidencing:**
 
@@ -1084,12 +1081,14 @@ We are going to do the latter:
    Notice that we use the `@classmethod` decorator. A class method is a method that operates on an instance of a class, as opposed to an instance of an object of that class (notice it uses `cls` instead of `self`, though that is a convention). In the past, we've used a `staticmethod` and while it is possible to implement this pattern, it would not support inheritance as well as this implementation.
 
 5. If you have created the unit tests, run them in PyCharm. Confirm that they now pass.
+![test resultys ](screenshots/test-section 2-13-3.png)
+
 
 **Additional evidencing:**
 After you have merged your branch to main, push to your remote with the s10 tag. Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:
 
-```markdown
-![Added methods to the car park class](screenshots/methods-to-car-park.png)
+
+![Added methods to the car park class](screenshots/methods-to-car-park-2.png)
 ```
 
 ### 2.14. Final step: build a car park
@@ -1130,9 +1129,8 @@ In your final submission, you must include any files you created or modified. Th
 
 1. Add a screenshot of the output of the `main.py` file:
 
-   ```markdown
    ![Main.py output](screenshots/main-py.png)
-   ```
+   
 
 > Required for evidencing competency:
 

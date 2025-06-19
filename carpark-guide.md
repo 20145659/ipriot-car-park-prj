@@ -1081,6 +1081,8 @@ We are going to do the latter:
    Notice that we use the `@classmethod` decorator. A class method is a method that operates on an instance of a class, as opposed to an instance of an object of that class (notice it uses `cls` instead of `self`, though that is a convention). In the past, we've used a `staticmethod` and while it is possible to implement this pattern, it would not support inheritance as well as this implementation.
 
 5. If you have created the unit tests, run them in PyCharm. Confirm that they now pass.
+![test resultys ](screenshots/test-section 2-13-3.png)
+
 
 **Additional evidencing:**
 After you have merged your branch to main, push to your remote with the s10 tag. Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:

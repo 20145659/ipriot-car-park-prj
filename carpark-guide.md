@@ -847,6 +847,7 @@ with self.assertRaises(TypeError):
 **Additional evidencing:**
 
 Commit your original test cases for the sensor class to the local repository. Tag the commit with `s8` so your lecturer can find it.
+![Car Park Register Method Tests](screenshots/car-park-register-method-tests.png)
 
 ### 2.13. Additional functionality: TDD
 

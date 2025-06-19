@@ -847,6 +847,9 @@ with self.assertRaises(TypeError):
 **Additional evidencing:**
 
 Commit your original test cases for the sensor class to the local repository. Tag the commit with `s8` so your lecturer can find it.
+
+**Car Park Register Method Test Screenshot:**
+
 ![Car Park Register Method Tests](screenshots/car-park-register-method-tests.png)
 
 ### 2.13. Additional functionality: TDD
@@ -949,6 +952,8 @@ Notice how we have inadvertently made our test code hard to maintain (if we chan
 
 6. Run the unit tests in PyCharm. Confirm that they fail!
 
+Below is the error screenshot when running the log file test before adding `log_file` support to the CarPark class:
+![Test Failure Screenshot](screenshots/add-test-cases-section2-13-2-1-error.png)
 7. Commit your changes to the local repository. You do not need to tag them:
 
       ```bash
